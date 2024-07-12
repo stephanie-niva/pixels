@@ -1,6 +1,4 @@
 import "./index.css";
-import logo from "../images/logo.png"
-import novel from "../images/novel.png"
 
 const Book = () =>{
     return(
@@ -36,18 +34,7 @@ const Book = () =>{
 
 
 <div class="">
-        <div class="navbar">
-            <div >
-                <img src={logo} alt="Logo" id="logo"></img>
-            </div>
-            <div class="navtop">
-                <a href="#home">Home</a>
-                <a href="#video">Video</a>
-                <a href="#article">Article</a>
-                <a href="#podcast">Podcast</a>
-                <a href="#resume">Resume</a>
-            </div>
-        </div>
+        
         
         <h1 classname="title">Born A Crime</h1>
         
@@ -63,7 +50,7 @@ const Book = () =>{
                the racist apartheid regime.</p>
         
         <div >
-            <img src={novel} alt="Novel" id="trevor"></img>
+            <img src='images/novel.jpg' alt="Novel" id="trevor"></img>
         </div>
        
         <button class="readmore">Read More</button>
